@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: -1px;
+  color: #333;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #333;
+}
+
+img {
+  border: 0;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
