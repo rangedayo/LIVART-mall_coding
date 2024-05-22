@@ -221,6 +221,7 @@ header input {
   margin-right: 20px;
 
   display: flex;
+  align-items: center;
 }
 
 .count > .current-num {
@@ -320,7 +321,7 @@ header input {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
   .section_1 .img_wrap img:last-child {
     display: block;
   }
@@ -328,7 +329,9 @@ header input {
   .section_1 .img_wrap img:first-child {
     display: none;
   }
+}
 
+@media screen and (max-width: 430px) {
   .section_1 h2 {
     font-size: 28px;
     line-height: 40px;
